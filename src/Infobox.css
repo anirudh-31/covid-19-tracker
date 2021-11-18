@@ -1,0 +1,33 @@
+.infobox {
+  flex: 1;
+  cursor: pointer;
+  transition: transform 500ms ease-in;
+}
+
+.isActive {
+  /* box-shadow: none; */
+  box-shadow: 2px 2px 8px 5px #f2d1c9, -2px -2px 8px 5px #f2d1c9;
+  transform: translate(-0.25rem, -0.25rem);
+}
+
+.infored {
+  border-color: #a41623;
+}
+
+.infobox:not(:last-child) {
+  margin-right: 15px;
+}
+
+.infobox__cases {
+  color: #cc1034;
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.infobox__total {
+  color: #6c757d;
+  font-weight: 700 !important;
+  font-size: 0.8rem !important;
+  margin-top: 15px !important;
+}
